@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010B4590240FDBD300485DC5 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 010B458F240FDBD300485DC5 /* bus.png */; };
+		010B4592240FDF8D00485DC5 /* tram.png in Resources */ = {isa = PBXBuildFile; fileRef = 010B4591240FDF8D00485DC5 /* tram.png */; };
 		01147A19240E59220076E325 /* LineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01147A18240E59220076E325 /* LineTableViewCell.swift */; };
 		01147A1B240E5F2C0076E325 /* AllLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01147A1A240E5F2C0076E325 /* AllLines.swift */; };
 		01147A1D240E60630076E325 /* LineTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01147A1C240E60620076E325 /* LineTime.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010B458F240FDBD300485DC5 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		010B4591240FDF8D00485DC5 /* tram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram.png; sourceTree = "<group>"; };
 		01147A18240E59220076E325 /* LineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTableViewCell.swift; sourceTree = "<group>"; };
 		01147A1A240E5F2C0076E325 /* AllLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLines.swift; sourceTree = "<group>"; };
 		01147A1C240E60620076E325 /* LineTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTime.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				E310693223DEE3EC00E40C45 /* LaunchScreen.storyboard */,
 				E310693523DEE3EC00E40C45 /* Info.plist */,
 				01147A20240E69A50076E325 /* HexColorExtension.swift */,
+				010B458F240FDBD300485DC5 /* bus.png */,
+				010B4591240FDF8D00485DC5 /* tram.png */,
 			);
 			path = ProjetDemoMMI;
 			sourceTree = "<group>";
@@ -174,6 +180,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010B4590240FDBD300485DC5 /* bus.png in Resources */,
+				010B4592240FDF8D00485DC5 /* tram.png in Resources */,
 				E310693423DEE3EC00E40C45 /* LaunchScreen.storyboard in Resources */,
 				E310693123DEE3EC00E40C45 /* Assets.xcassets in Resources */,
 				E310692F23DEE3EA00E40C45 /* Main.storyboard in Resources */,

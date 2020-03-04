@@ -67,12 +67,12 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stop Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0G-Ng-7Hs">
                                         <rect key="frame" x="20" y="136" width="374" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
                                         <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="c2b-FW-fQD"/>
                                     <constraint firstAttribute="height" constant="193" id="dVa-5e-tEK"/>
@@ -82,11 +82,11 @@
                                 <rect key="frame" x="0.0" y="193" width="414" height="703"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LineCell" rowHeight="119" id="YxG-e0-yay" userLabel="LineCell" customClass="LineTableViewCell" customModule="ProjetDemoMMI" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="119"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LineCell" rowHeight="116" id="YxG-e0-yay" userLabel="LineCell" customClass="LineTableViewCell" customModule="ProjetDemoMMI" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="116"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YxG-e0-yay" id="Xxe-Eb-24j">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="119"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="116"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="248" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Line" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1G9-AW-ur0">
@@ -104,7 +104,7 @@
                                                     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Direction name" textAlignment="natural" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbs-jR-zsk">
-                                                    <rect key="frame" x="50" y="71" width="240" height="22"/>
+                                                    <rect key="frame" x="50" y="71" width="240" height="19"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="240" id="4pZ-Lr-lIx"/>
                                                     </constraints>
@@ -132,15 +132,26 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="radiowaves.left" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="RiV-kq-VB3">
-                                                    <rect key="frame" x="302" y="29.5" width="20" height="29"/>
+                                                    <rect key="frame" x="302" y="29.5" width="20" height="26"/>
+                                                </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="bus.png" translatesAutoresizingMaskIntoConstraints="NO" id="rhX-C4-pWZ">
+                                                    <rect key="frame" x="69" y="16" width="45" height="45"/>
+                                                    <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="45" id="To6-SH-4E5"/>
+                                                        <constraint firstAttribute="height" constant="45" id="XIv-Mr-V5c"/>
+                                                    </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="RiV-kq-VB3" firstAttribute="top" secondItem="Xxe-Eb-24j" secondAttribute="topMargin" constant="18" id="68y-RD-qej"/>
                                                 <constraint firstItem="F7Z-w0-aGA" firstAttribute="leading" secondItem="RiV-kq-VB3" secondAttribute="trailing" constant="8" id="AES-23-Cv5"/>
+                                                <constraint firstItem="RiV-kq-VB3" firstAttribute="leading" secondItem="rhX-C4-pWZ" secondAttribute="trailing" constant="188" id="GW0-Pn-eTp"/>
                                                 <constraint firstItem="1G9-AW-ur0" firstAttribute="top" secondItem="Xxe-Eb-24j" secondAttribute="top" constant="20" id="Hhq-9b-JuK"/>
+                                                <constraint firstItem="zbs-jR-zsk" firstAttribute="top" secondItem="rhX-C4-pWZ" secondAttribute="bottom" constant="10" id="JSe-P1-J3r"/>
                                                 <constraint firstItem="zbs-jR-zsk" firstAttribute="top" secondItem="1G9-AW-ur0" secondAttribute="bottom" constant="15" id="MB0-4z-X2I"/>
                                                 <constraint firstItem="d28-kq-71j" firstAttribute="leading" secondItem="Xxe-Eb-24j" secondAttribute="leadingMargin" id="PyH-M6-uaY"/>
+                                                <constraint firstItem="rhX-C4-pWZ" firstAttribute="top" secondItem="Xxe-Eb-24j" secondAttribute="topMargin" constant="5" id="QFg-hy-LE6"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="RiV-kq-VB3" secondAttribute="bottom" constant="49" id="RZg-Wz-kgo"/>
                                                 <constraint firstItem="1G9-AW-ur0" firstAttribute="leading" secondItem="Xxe-Eb-24j" secondAttribute="leadingMargin" id="WUr-B1-CSV"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="OL0-8o-nFQ" secondAttribute="trailing" constant="11" id="ca2-g5-vbk"/>
@@ -151,9 +162,11 @@
                                                 <constraint firstItem="RiV-kq-VB3" firstAttribute="leading" secondItem="1G9-AW-ur0" secondAttribute="trailing" constant="126" id="iS8-89-N5m"/>
                                                 <constraint firstItem="F7Z-w0-aGA" firstAttribute="trailing" secondItem="Xxe-Eb-24j" secondAttribute="trailingMargin" id="jhG-oN-SQw"/>
                                                 <constraint firstItem="d28-kq-71j" firstAttribute="top" secondItem="1G9-AW-ur0" secondAttribute="bottom" constant="15" id="n2j-uo-0Nd"/>
+                                                <constraint firstItem="rhX-C4-pWZ" firstAttribute="leading" secondItem="Xxe-Eb-24j" secondAttribute="leadingMargin" constant="49" id="o1O-fJ-ajW"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="busIcon" destination="rhX-C4-pWZ" id="97K-bx-ZKt"/>
                                             <outlet property="cellView" destination="Xxe-Eb-24j" id="N6a-p7-kq9"/>
                                             <outlet property="contentView" destination="Xxe-Eb-24j" id="gAE-ez-gk5"/>
                                             <outlet property="directionIcon" destination="d28-kq-71j" id="hur-9m-IqB"/>
@@ -191,6 +204,7 @@
     </scenes>
     <resources>
         <image name="arrow.right.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="bus.png" width="192" height="192"/>
         <image name="radiowaves.left" catalog="system" width="44" height="64"/>
     </resources>
 </document>

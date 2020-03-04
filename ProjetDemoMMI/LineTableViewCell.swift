@@ -17,6 +17,7 @@ class LineTableViewCell: UITableViewCell {
     @IBOutlet weak var nextDepartureTimeLabel: UILabel!
     @IBOutlet weak var minutesLabel: UILabel!
     @IBOutlet weak var realTimeIcon: UIImageView!
+    @IBOutlet weak var busIcon: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -36,9 +37,14 @@ class LineTableViewCell: UITableViewCell {
         nextDepartureTimeLabel.textColor = color
         minutesLabel.textColor = color
         realTimeIcon.tintColor = color
+        
+        busIcon.image = busIcon.image?.withRenderingMode(.alwaysTemplate)
+        busIcon.tintColor = color
+        busIcon.alpha = CGFloat(0.4)
     }
     
     public func setData(pattern: Pattern, times: [Time]?) {
+        busIcon.image = UIImage(named: "\(pattern.mode!.lowercased()).png")
         lineName.text = pattern.name
         setLabelsColor(color: (pattern.uiTextColor) ?? .white)
         cellView.backgroundColor = pattern.uiColor

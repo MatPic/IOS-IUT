@@ -31,6 +31,12 @@ public class Pattern: Decodable {
         }
     }
     
+    var mode: String? {
+        get {
+            return getAdditionalData()?.mode
+        }
+    }
+    
     var uiColor: UIColor? {
         get {
             return self.getAdditionalData()?.uicolor
