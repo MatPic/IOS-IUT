@@ -70,7 +70,10 @@ class TimesViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("select at \(indexPath)")
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let lineDetailsViewController = storyboard.instantiateViewController(withIdentifier: "LineDetailsViewController") as! LineDetailsViewController
+        lineDetailsViewController.lineTime = lines![indexPath[1]]
+        self.navigationController?.pushViewController(lineDetailsViewController, animated: true)
     }
 
     /*

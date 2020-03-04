@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		010B4590240FDBD300485DC5 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 010B458F240FDBD300485DC5 /* bus.png */; };
 		010B4592240FDF8D00485DC5 /* tram.png in Resources */ = {isa = PBXBuildFile; fileRef = 010B4591240FDF8D00485DC5 /* tram.png */; };
+		010B4594240FE86500485DC5 /* LineDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010B4593240FE86500485DC5 /* LineDetailsViewController.swift */; };
 		01147A19240E59220076E325 /* LineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01147A18240E59220076E325 /* LineTableViewCell.swift */; };
 		01147A1B240E5F2C0076E325 /* AllLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01147A1A240E5F2C0076E325 /* AllLines.swift */; };
 		01147A1D240E60630076E325 /* LineTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01147A1C240E60620076E325 /* LineTime.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		010B458F240FDBD300485DC5 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
 		010B4591240FDF8D00485DC5 /* tram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram.png; sourceTree = "<group>"; };
+		010B4593240FE86500485DC5 /* LineDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineDetailsViewController.swift; sourceTree = "<group>"; };
 		01147A18240E59220076E325 /* LineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTableViewCell.swift; sourceTree = "<group>"; };
 		01147A1A240E5F2C0076E325 /* AllLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLines.swift; sourceTree = "<group>"; };
 		01147A1C240E60620076E325 /* LineTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTime.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				E310692B23DEE3EA00E40C45 /* MapViewController.swift */,
 				E332B1B423E176E7001E9028 /* TimesViewController.swift */,
 				015E148A240FBFA00070205C /* SpinnerViewController.swift */,
+				010B4593240FE86500485DC5 /* LineDetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				E310694223DF0B1900E40C45 /* Stop.swift in Sources */,
 				01147A1B240E5F2C0076E325 /* AllLines.swift in Sources */,
 				01147A1D240E60630076E325 /* LineTime.swift in Sources */,
+				010B4594240FE86500485DC5 /* LineDetailsViewController.swift in Sources */,
 				E332B1B523E176E7001E9028 /* TimesViewController.swift in Sources */,
 				E310693F23DF0AEC00E40C45 /* API.swift in Sources */,
 				E310692A23DEE3EA00E40C45 /* SceneDelegate.swift in Sources */,

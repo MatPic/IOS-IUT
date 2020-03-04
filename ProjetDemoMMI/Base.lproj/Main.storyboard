@@ -201,6 +201,61 @@
             </objects>
             <point key="canvasLocation" x="134.78260869565219" y="120.53571428571428"/>
         </scene>
+        <!--Line Details View Controller-->
+        <scene sceneID="j0P-6T-Vh4">
+            <objects>
+                <viewController storyboardIdentifier="LineDetailsViewController" id="oPn-2h-nPT" customClass="LineDetailsViewController" customModule="ProjetDemoMMI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hYG-hw-Iqv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWY-0Q-tU0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="193"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Line" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJy-7d-oeD">
+                                        <rect key="frame" x="32" y="129" width="362" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="bus.png" translatesAutoresizingMaskIntoConstraints="NO" id="hbe-wR-LPi">
+                                        <rect key="frame" x="76" y="125" width="45" height="45"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="ROk-gt-tfv"/>
+                                            <constraint firstAttribute="height" constant="45" id="eed-tM-rDK"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="hbe-wR-LPi" secondAttribute="trailing" constant="293" id="BUq-cB-D0f"/>
+                                    <constraint firstAttribute="width" constant="414" id="DTE-f9-1ht"/>
+                                    <constraint firstItem="hbe-wR-LPi" firstAttribute="leading" secondItem="dWY-0Q-tU0" secondAttribute="leading" constant="76" id="VKZ-zK-rNI"/>
+                                    <constraint firstAttribute="height" constant="193" id="XfW-WW-Lto"/>
+                                    <constraint firstAttribute="bottom" secondItem="hbe-wR-LPi" secondAttribute="bottom" constant="23" id="dkV-Fx-5h6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dWY-0Q-tU0" firstAttribute="trailing" secondItem="TNh-5t-dvB" secondAttribute="trailing" id="9VX-Nz-Tfs"/>
+                            <constraint firstItem="dWY-0Q-tU0" firstAttribute="leading" secondItem="TNh-5t-dvB" secondAttribute="leading" id="Syc-oH-5Rq"/>
+                            <constraint firstItem="dWY-0Q-tU0" firstAttribute="top" secondItem="hYG-hw-Iqv" secondAttribute="top" id="xte-kW-lyc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TNh-5t-dvB"/>
+                    </view>
+                    <connections>
+                        <outlet property="busIcon" destination="hbe-wR-LPi" id="s2R-MP-klX"/>
+                        <outlet property="header" destination="dWY-0Q-tU0" id="eUK-zZ-6pj"/>
+                        <outlet property="lineNameLabel" destination="HJy-7d-oeD" id="LvZ-We-Hbi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hwY-tx-ZFd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957.97101449275374" y="123.88392857142857"/>
+        </scene>
     </scenes>
     <resources>
         <image name="arrow.right.circle.fill" catalog="system" width="64" height="60"/>
