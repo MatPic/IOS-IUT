@@ -21,6 +21,8 @@ class TimesViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "Lines"
+        
         linesTableView.delegate = self
         linesTableView.dataSource = self
         
