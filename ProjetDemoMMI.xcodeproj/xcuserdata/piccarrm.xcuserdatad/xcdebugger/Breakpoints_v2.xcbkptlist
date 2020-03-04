@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D2A8B4B0-372F-4992-93FA-1A2DD0AB352D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E4A54AC-3E0C-4C60-B567-B51557DC922F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetDemoMMI/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getTimeTable(stopId:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2F57C8F-36C7-45DD-A176-86EE7D8B726D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetDemoMMI/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "getTimeTable(stopId:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24DD67E0-687E-4779-A03E-C76C9B46DC4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetDemoMMI/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "getTimeTable(stopId:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73825AA1-DAC3-4A73-8C74-FB57C9735405"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetDemoMMI/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getTimeTable(stopId:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "73825AA1-DAC3-4A73-8C74-FB57C9735405 - 679c63f23b7ddda4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjetDemoMMI.Api.getTimeTable(stopId: Swift.String, completion: (Swift.Optional&lt;Swift.Array&lt;ProjetDemoMMI.Time&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ProjetDemoMMI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/piccarrm/Desktop/ProjetDemoMMI/ProjetDemoMMI/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "565">
+               </Location>
+               <Location
+                  uuid = "73825AA1-DAC3-4A73-8C74-FB57C9735405 - 5e26a125d9f4feb5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ProjetDemoMMI.Api.getTimeTable(stopId: Swift.String, completion: (Swift.Optional&lt;Swift.Array&lt;ProjetDemoMMI.Time&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ProjetDemoMMI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/piccarrm/Desktop/ProjetDemoMMI/ProjetDemoMMI/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "198">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "080BAC89-CE59-47E0-9A9F-B630C4ABFD61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetDemoMMI/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getTimeTable(stopId:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96CE10C1-80DB-451E-8478-33188E39803C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetDemoMMI/Controllers/TimesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96CE10C1-80DB-451E-8478-33188E39803C - 9e118d571b7c70a8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;ProjetDemoMMI.Line&gt;&gt;) -&gt; () in ProjetDemoMMI.TimesViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ProjetDemoMMI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/piccarrm/Desktop/ProjetDemoMMI/ProjetDemoMMI/Controllers/TimesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "96CE10C1-80DB-451E-8478-33188E39803C - 68dff8c92ad864"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ProjetDemoMMI.Line) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;ProjetDemoMMI.Line&gt;&gt;) -&gt; () in ProjetDemoMMI.TimesViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ProjetDemoMMI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/piccarrm/Desktop/ProjetDemoMMI/ProjetDemoMMI/Controllers/TimesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AF3C8F7-A01C-4ED6-8593-C89E316BCD48"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetDemoMMI/Controllers/TimesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "TimesViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9AF3C8F7-A01C-4ED6-8593-C89E316BCD48 - b201e38f2dd3c9b4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjetDemoMMI.TimesViewController.stopNameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "ProjetDemoMMI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/piccarrm/Desktop/ProjetDemoMMI/ProjetDemoMMI/Controllers/TimesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "9AF3C8F7-A01C-4ED6-8593-C89E316BCD48 - 27e349f0d2b96da0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjetDemoMMI.TimesViewController.stopNameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "ProjetDemoMMI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/piccarrm/Desktop/ProjetDemoMMI/ProjetDemoMMI/Controllers/TimesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "9AF3C8F7-A01C-4ED6-8593-C89E316BCD48 - 9d11561f292d6eb7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjetDemoMMI.TimesViewController.stopNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "ProjetDemoMMI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/piccarrm/Desktop/ProjetDemoMMI/ProjetDemoMMI/Controllers/TimesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "9AF3C8F7-A01C-4ED6-8593-C89E316BCD48 - 37efd0aca810465c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjetDemoMMI.TimesViewController.stopNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ProjetDemoMMI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/piccarrm/Desktop/ProjetDemoMMI/ProjetDemoMMI/Controllers/TimesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "9AF3C8F7-A01C-4ED6-8593-C89E316BCD48 - ea83eb899e82543b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjetDemoMMI.TimesViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ProjetDemoMMI.TimesViewController"
+                  moduleName = "ProjetDemoMMI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/piccarrm/Desktop/ProjetDemoMMI/ProjetDemoMMI/Controllers/TimesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "9AF3C8F7-A01C-4ED6-8593-C89E316BCD48 - 60561ad07728e48e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjetDemoMMI.TimesViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ProjetDemoMMI.TimesViewController&gt;"
+                  moduleName = "ProjetDemoMMI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/piccarrm/Desktop/ProjetDemoMMI/ProjetDemoMMI/Controllers/TimesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D0DCE9C-E5C1-4590-87CE-9B208100A330"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetDemoMMI/Model/AllLines.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "initiate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "519D9E2C-81E5-4616-AE5B-D2527FDA611D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetDemoMMI/Controllers/LineTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "setData(pattern:times:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
