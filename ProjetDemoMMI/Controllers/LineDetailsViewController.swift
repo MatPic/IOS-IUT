@@ -15,6 +15,8 @@ class LineDetailsViewController: UIViewController {
     @IBOutlet weak var header: UIView!
     @IBOutlet weak var directionIcon: UIImageView!
     @IBOutlet weak var directionNameLabel: UILabel!
+    @IBOutlet weak var timesTableView: UITableView!
+    @IBOutlet weak var timesView: UIView!
     
     var lineTime: LineTime?
     
@@ -22,6 +24,12 @@ class LineDetailsViewController: UIViewController {
         super.viewDidLoad()
         
         self.title =  "Line Details"
+        timesView.layer.shadowColor = UIColor.black.cgColor
+        timesView.layer.shadowOpacity = 1
+        timesView.layer.shadowOffset = CGSize(width: 0, height: 0)
+        timesView.layer.shadowRadius = 10
+        timesView.layer.cornerRadius = 50
+//        self.timesView.clipsToBounds = true
         
         setData(pattern: lineTime!.pattern)
         // Do any additional setup after loading the view.
