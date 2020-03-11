@@ -16,6 +16,7 @@
 		01147A21240E69A50076E325 /* HexColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01147A20240E69A50076E325 /* HexColorExtension.swift */; };
 		015E148B240FBFA00070205C /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015E148A240FBFA00070205C /* SpinnerViewController.swift */; };
 		0199123123E2D96D00C6A655 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0199123023E2D96D00C6A655 /* Line.swift */; };
+		01B2CBA22418F82F009842BD /* TimesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2CBA12418F82F009842BD /* TimesTableViewCell.swift */; };
 		E310692823DEE3EA00E40C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E310692723DEE3EA00E40C45 /* AppDelegate.swift */; };
 		E310692A23DEE3EA00E40C45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E310692923DEE3EA00E40C45 /* SceneDelegate.swift */; };
 		E310692C23DEE3EA00E40C45 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E310692B23DEE3EA00E40C45 /* MapViewController.swift */; };
@@ -39,6 +40,7 @@
 		01147A20240E69A50076E325 /* HexColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorExtension.swift; sourceTree = "<group>"; };
 		015E148A240FBFA00070205C /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 		0199123023E2D96D00C6A655 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		01B2CBA12418F82F009842BD /* TimesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesTableViewCell.swift; sourceTree = "<group>"; };
 		E310692423DEE3EA00E40C45 /* ProjetDemoMMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetDemoMMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E310692723DEE3EA00E40C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E310692923DEE3EA00E40C45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				E310694023DF0B0B00E40C45 /* Model */,
 				E332B1B623E1770D001E9028 /* Controllers */,
 				01147A18240E59220076E325 /* LineTableViewCell.swift */,
+				01B2CBA12418F82F009842BD /* TimesTableViewCell.swift */,
 				E310693E23DF0AEC00E40C45 /* API.swift */,
 				E310694523DF0E5F00E40C45 /* StopAnnotation.swift */,
 				E310692723DEE3EA00E40C45 /* AppDelegate.swift */,
@@ -206,6 +209,7 @@
 				01147A19240E59220076E325 /* LineTableViewCell.swift in Sources */,
 				E310694223DF0B1900E40C45 /* Stop.swift in Sources */,
 				01147A1B240E5F2C0076E325 /* AllLines.swift in Sources */,
+				01B2CBA22418F82F009842BD /* TimesTableViewCell.swift in Sources */,
 				01147A1D240E60630076E325 /* LineTime.swift in Sources */,
 				010B4594240FE86500485DC5 /* LineDetailsViewController.swift in Sources */,
 				E332B1B523E176E7001E9028 /* TimesViewController.swift in Sources */,

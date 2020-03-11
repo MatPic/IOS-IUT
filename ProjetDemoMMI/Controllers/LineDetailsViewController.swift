@@ -13,6 +13,8 @@ class LineDetailsViewController: UIViewController {
     @IBOutlet weak var lineNameLabel: UILabel!
     @IBOutlet weak var busIcon: UIImageView!
     @IBOutlet weak var header: UIView!
+    @IBOutlet weak var directionIcon: UIImageView!
+    @IBOutlet weak var directionNameLabel: UILabel!
     
     var lineTime: LineTime?
     
@@ -30,6 +32,8 @@ class LineDetailsViewController: UIViewController {
         busIcon.image = busIcon.image?.withRenderingMode(.alwaysTemplate)
         busIcon.tintColor = color
         busIcon.alpha = CGFloat(0.4)
+        directionIcon.tintColor = color
+        directionNameLabel.textColor = color
     }
     
     public func setData(pattern: Pattern) {
@@ -37,6 +41,7 @@ class LineDetailsViewController: UIViewController {
         setLabelsColor(color: (pattern.uiTextColor) ?? .white)
         header.backgroundColor = pattern.uiColor
         lineNameLabel.text = pattern.name
+        directionNameLabel.text = pattern.lastStopName?.lowercased().capitalized
     }
     
 
