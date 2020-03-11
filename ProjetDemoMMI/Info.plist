@@ -60,5 +60,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>RestaurantApp a besoin de connaître votre position géographique</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>RestaurantApp a besoin de connaître votre position géographique</string> 
 </dict>
 </plist>

@@ -20,4 +20,9 @@ class StopAnnotation: MKPointAnnotation {
 		self.title = title
 		self.subtitle = subtitle
 	}
+    
+    static func == (lhs: StopAnnotation, rhs: StopAnnotation) -> Bool {
+        let epsilon = 0.0001
+        return fabs(lhs.coordinate.latitude - rhs.coordinate.latitude) <= epsilon && fabs(lhs.coordinate.longitude - rhs.coordinate.longitude) <= epsilon
+    }
 }

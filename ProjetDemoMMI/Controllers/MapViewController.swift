@@ -10,14 +10,29 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class MapViewController: UIViewController, MKMapViewDelegate {
+class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+    
+    let locationManager = CLLocationManager()
 	
-	@IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var mapView: MKMapView!
 	
 	let api = Api()
+    
+    var currentSelectedStopId: String = ""
+    var currentLocation: CLLocationCoordinate2D? = nil
+    // Ici, on centre la carte sur la latitude et la longitude passée en paramètre
+    let defaultLocation = CLLocationCoordinate2D(latitude: 45.19130205, longitude: 5.71517336)
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+        
+        self.locationManager.requestWhenInUseAuthorization()
+
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.startUpdatingLocation()
+        }
 		
         AllLines.initiate()
         
@@ -25,8 +40,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 		
 		mapView.delegate = self
 		
-		// Ici, on centre la carte sur la latitude et la longitude passée en paramètre
-		let center = CLLocationCoordinate2D(latitude: 45.19130205, longitude: 5.71517336)
+        let center = defaultLocation
 		centerMap(onLocation: center)
 		popularStops(onLocation: center)
 		// On fait appel à la classe API pour récupérer l'ensemble des arrêts autour du point passé en paramètre
@@ -44,13 +58,33 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                 DispatchQueue.main.async {
                     let coordinates = CLLocationCoordinate2D(latitude: stop.lat!, longitude: stop.lon!)
                     let stopAnnotation = StopAnnotation(id: stop.id, coordinate: coordinates, title: stop.name, subtitle: "Arrêt de tram")
-                    self.mapView.addAnnotation(stopAnnotation)
+                    if (!self.annotationExistsThere(annotation: stopAnnotation)) {
+                        self.mapView.addAnnotation(stopAnnotation)
+                    }
                 }
             })
             
             // TODO: On veut afficher un point sur la carte (une annotation), pour chaque stop
             // L'annotation utilisée sera de type StopAnnotation, pour pouvoir par la suite récupérer l'id de ce stop
         }
+    }
+    
+    func annotationExistsThere(annotation: StopAnnotation) -> Bool {
+        for sourceAnnotation in mapView.annotations {
+            if let existingAnnotation = sourceAnnotation as? StopAnnotation {
+                if (annotation == existingAnnotation) {
+                    return true
+                }
+            }
+        }
+        return false
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
+        currentLocation = locValue
+        centerMap(onLocation: currentLocation ?? defaultLocation)
+        popularStops(onLocation: currentLocation ?? defaultLocation)
     }
 
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
