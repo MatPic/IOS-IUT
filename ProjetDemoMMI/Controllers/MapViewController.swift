@@ -46,6 +46,10 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
 		// On fait appel à la classe API pour récupérer l'ensemble des arrêts autour du point passé en paramètre
 		
 	}
+    
+    func mapViewDidChangeVisibleRegion(_ mapView: MKMapView) {
+        popularStops(onLocation: mapView.centerCoordinate)
+    }
 	
 	func centerMap(onLocation location: CLLocationCoordinate2D) {
 		let region = MKCoordinateRegion.init(center: location, latitudinalMeters: 500, longitudinalMeters: 500)
@@ -63,9 +67,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
                     }
                 }
             })
-            
-            // TODO: On veut afficher un point sur la carte (une annotation), pour chaque stop
-            // L'annotation utilisée sera de type StopAnnotation, pour pouvoir par la suite récupérer l'id de ce stop
         }
     }
     
@@ -96,9 +97,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             timesViewController.stopName = stopAnnotation.title!
             self.navigationController?.pushViewController(timesViewController, animated: true)
         }
-        
-		
-		// TODO: Accéder au viewController TimesViewController afin d'afficher les horaires de cet arrêt
     }
 }
 
